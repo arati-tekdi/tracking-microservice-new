@@ -60,4 +60,7 @@ export class UserCourseCertificate {
 
   @Column({ type: 'integer', nullable: true })
   progress: number;
+
+  // @Column({ type: 'integer', nullable: true })
+  // testTypeorm: number;
 }
